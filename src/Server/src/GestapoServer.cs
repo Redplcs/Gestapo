@@ -2,6 +2,13 @@
 
 public class GestapoServer : IServer
 {
+	private readonly GestapoServerOptions _options;
+
+	public GestapoServer(GestapoServerOptions options)
+	{
+		_options = options;
+	}
+
 	public void Dispose()
 	{
 		throw new NotImplementedException();
