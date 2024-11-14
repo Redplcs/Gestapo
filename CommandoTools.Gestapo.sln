@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandoTools.Gestapo.Application", "src\Application\src\CommandoTools.Gestapo.Application.csproj", "{0540D91B-E582-411B-AA9A-7B5133A8C76E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandoTools.Gestapo.Server.Tests", "src\Server\tests\CommandoTools.Gestapo.Server.Tests.csproj", "{95756819-223B-4710-962A-85082E27B8CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +40,10 @@ Global
 		{0540D91B-E582-411B-AA9A-7B5133A8C76E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0540D91B-E582-411B-AA9A-7B5133A8C76E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0540D91B-E582-411B-AA9A-7B5133A8C76E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95756819-223B-4710-962A-85082E27B8CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95756819-223B-4710-962A-85082E27B8CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95756819-223B-4710-962A-85082E27B8CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95756819-223B-4710-962A-85082E27B8CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6D36D813-2B9B-408C-A057-443E4F39F33B} = {372D18B6-FE23-4F09-84B6-2D55B978BCD9}
@@ -46,5 +52,6 @@ Global
 		{B5C54E4C-4841-48BD-B2A0-97E9608DFAA4} = {90B99D46-9CD8-4C04-8606-C1922B3BBFA1}
 		{12BC884D-CE13-49C6-B7C6-C83A3F187ABE} = {372D18B6-FE23-4F09-84B6-2D55B978BCD9}
 		{0540D91B-E582-411B-AA9A-7B5133A8C76E} = {12BC884D-CE13-49C6-B7C6-C83A3F187ABE}
+		{95756819-223B-4710-962A-85082E27B8CA} = {6D36D813-2B9B-408C-A057-443E4F39F33B}
 	EndGlobalSection
 EndGlobal
