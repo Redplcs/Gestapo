@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{6D36D8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandoTools.Gestapo.Server", "src\Server\src\CommandoTools.Gestapo.Server.csproj", "{305A9F32-A4A2-45FE-A630-A2759D028037}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prudp", "Prudp", "{90B99D46-9CD8-4C04-8606-C1922B3BBFA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandoTools.Gestapo.Prudp", "src\Prudp\src\CommandoTools.Gestapo.Prudp.csproj", "{B5C54E4C-4841-48BD-B2A0-97E9608DFAA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,9 +26,15 @@ Global
 		{305A9F32-A4A2-45FE-A630-A2759D028037}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{305A9F32-A4A2-45FE-A630-A2759D028037}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{305A9F32-A4A2-45FE-A630-A2759D028037}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5C54E4C-4841-48BD-B2A0-97E9608DFAA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5C54E4C-4841-48BD-B2A0-97E9608DFAA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5C54E4C-4841-48BD-B2A0-97E9608DFAA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5C54E4C-4841-48BD-B2A0-97E9608DFAA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6D36D813-2B9B-408C-A057-443E4F39F33B} = {372D18B6-FE23-4F09-84B6-2D55B978BCD9}
 		{305A9F32-A4A2-45FE-A630-A2759D028037} = {6D36D813-2B9B-408C-A057-443E4F39F33B}
+		{90B99D46-9CD8-4C04-8606-C1922B3BBFA1} = {372D18B6-FE23-4F09-84B6-2D55B978BCD9}
+		{B5C54E4C-4841-48BD-B2A0-97E9608DFAA4} = {90B99D46-9CD8-4C04-8606-C1922B3BBFA1}
 	EndGlobalSection
 EndGlobal
