@@ -1,6 +1,6 @@
 ﻿namespace CommandoTools.Gestapo.Server;
 
-public class GestapoServer : IServer
+public sealed class GestapoServer : IServer
 {
 	private readonly GestapoServerOptions _options;
 
@@ -11,7 +11,9 @@ public class GestapoServer : IServer
 
 	public void Dispose()
 	{
-		throw new NotImplementedException();
+		// Ungraceful shutdown
+		var canceledToken = new CancellationToken(canceled: true);
+		StopAsync(canceledToken).GetAwaiter().GetResult();
 	}
 
 	public Task StartAsync(CancellationToken cancellationToken = default)
