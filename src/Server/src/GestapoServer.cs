@@ -2,6 +2,8 @@
 
 public sealed class GestapoServer : IServer
 {
+	private bool _started;
+
 	public void Dispose()
 	{
 		// Ungraceful shutdown
@@ -11,7 +13,13 @@ public sealed class GestapoServer : IServer
 
 	public Task StartAsync(CancellationToken cancellationToken = default)
 	{
-		throw new NotImplementedException();
+		if (_started)
+		{
+			throw new InvalidOperationException("The server is already started");
+		}
+		_started = true;
+
+		return Task.CompletedTask;
 	}
 
 	public Task StopAsync(CancellationToken cancellationToken = default)
